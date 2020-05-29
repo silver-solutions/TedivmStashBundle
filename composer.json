@@ -25,24 +25,21 @@
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.3",
         "tedivm/stash": "^0.15",
-        "symfony/config": "^3.4 || ^4.0",
-        "symfony/http-kernel": "^3.4 || ^4.0",
-        "symfony/dependency-injection": "^3.4 || ^4.0"
+        "symfony/config": "^3.4 || ^4.0 || ^5.0",
+        "symfony/http-kernel": "^3.4 || ^4.0 || ^5.0",
+        "symfony/dependency-injection": "^3.4 || ^4.0|| ^5.0"
     },
     "config": {
         "vendor-dir": "vendor",
-        "sort-packages": true,
-        "platform": {
-            "php": "7.0.8"
-        }
+        "sort-packages": true
     },
     "require-dev": {
-        "doctrine/cache": "^1.6",
-        "friendsofphp/php-cs-fixer": "^2",
-        "php-coveralls/php-coveralls": "^2",
-        "phpunit/phpunit": "^6.5",
+        "doctrine/cache": "^1.10",
+        "friendsofphp/php-cs-fixer": "^2.16.3",
+        "php-coveralls/php-coveralls": "^2.2.0",
+        "phpunit/phpunit": "^9.1.5",
         "symfony/phpunit-bridge": "*"
     },
     "autoload": {
